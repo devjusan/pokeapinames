@@ -1,0 +1,15 @@
+.footer {
+  position: fixed;
+  background: #eee;
+  width: 100%;
+  font-size: 1rem;
+  bottom: 0;
+  text-align: start;
+  z-index: 1000;
+}
+
+.footer p {
+  align-items: end;
+  margin: 1rem;
+  padding: 0.5rem;
+}

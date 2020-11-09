@@ -1,0 +1,9 @@
+.loading {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  padding: 10rem 0;
+  z-index: 1000;
+}

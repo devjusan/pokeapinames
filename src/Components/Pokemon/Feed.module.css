@@ -1,0 +1,14 @@
+.feed {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  margin: 2rem 0;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
+div.feed {
+  position: relative;
+}

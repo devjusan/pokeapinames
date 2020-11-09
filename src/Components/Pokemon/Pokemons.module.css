@@ -1,0 +1,64 @@
+.pokemons {
+  display: grid;
+  grid-template-rows: 5rem 1fr 5rem;
+  grid-template-areas: 'title' 'pokemons' 'button';
+  justify-content: center;
+  position: relative;
+  margin: 0.5rem auto 0 auto;
+}
+
+.item {
+  grid-area: 'pokemons';
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  column-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.gridTitle {
+  grid-area: 'title';
+}
+
+.item ul li {
+  padding: 15px;
+  color: rgba(1, 1, 1, 0.9);
+  font-family: var(--type-first);
+  width: 9rem;
+  line-height: 1;
+  text-align: start;
+  font-weight: 600;
+  margin: 1rem 3rem;
+  border: 1px solid #333;
+  box-shadow: 3px 4px 2px #333;
+  z-index: 1;
+  position: relative;
+}
+
+.item ul li:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0.9rem;
+  height: 0.9rem;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: -8px;
+  left: 10px;
+  border-radius: 0.2rem;
+  z-index: -1;
+}
+
+.btnAdjust {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  grid-area: 'button';
+  column-gap: 9rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  width: 0 auto;
+}
